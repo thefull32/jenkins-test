@@ -8,7 +8,7 @@ public class SampleTest {
     public void oneTest() {
         String baseUrl = "http://google.com";
 
-        System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver");
+        System.setProperty("webdriver.gecko.driver","src/main/resources/linux/geckodriver");
         WebDriver driver = new FirefoxDriver();
 
         System.out.println("Here comes the testing!");
